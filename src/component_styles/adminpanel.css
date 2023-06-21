@@ -1,0 +1,70 @@
+.root {
+    padding: 0%;
+  }
+  
+  #adminPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F6FC;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  #adminPanel .h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  #adminPanel .card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #adminPanel .question {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  #adminPanel .answer {
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 20px;
+  }
+  
+  #adminPanel form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #adminPanel textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  #adminPanel button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #4c8df6;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #adminPanel button:disabled {
+    background-color: #CCCCCC;
+    cursor: not-allowed;
+  }
+      
